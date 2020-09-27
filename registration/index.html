@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Project X</title>
+    <meta name="" content="">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Header---Apple.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <!-- Start: Login Form Dark -->
+    <div class="login-dark">
+        <form method="post">
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="form-group"><input class="form-control" type="email" id="email" name="email" placeholder="Email"></div>
+            <div class="form-group"><input class="form-control" type="password" id="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit"><a href="https://testb-35.github.io/Project-X/index.html">Log In</a></button></div><a class="forgot" href="#">Forgot your email or password?</a><a class="forgot" href="/registration/signup.html">New here?</a></form>
+    </div>
+    <!-- End: Login Form Dark -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Edited starts -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDzDLA8fCZTnk_Knjtc4bZQ11qJOu91Y7k",
+            authDomain: "travelx-mlh.firebaseapp.com",
+            databaseURL: "https://travelx-mlh.firebaseio.com",
+            projectId: "travelx-mlh",
+            storageBucket: "travelx-mlh.appspot.com",
+            messagingSenderId: "468663955049",
+            appId: "1:468663955049:web:f79f2110d2c136cfb57cf8",
+            measurementId: "G-PPQPJYHPKM"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
+
+    <script src="assets/js/index.js"></script>
+    <!-- <script src="/assets/js/signup.js"></script> -->
+</body>
+
+</html>

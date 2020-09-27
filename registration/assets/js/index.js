@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 function bypass() {
-    window.location.assign("https://www.w3schools.com");
+    window.location.assign("url_here"); // Not to be implemented instead implement <a>
 }
 
 let user = firebase.auth().currentUser;

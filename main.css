@@ -1,0 +1,29 @@
+div.container {
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (max-width: 1440px) {
+    h1 {
+        font-size: 1em;
+    }
+
+    div.container {
+        margin-left: 28%;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    h1 {
+        font-size: 6em;
+    }
+    form {
+        padding-top: 100px;
+    }
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Post creation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/posting/Contact-Form-Clean.css"/>
+  </head>
+
+  <body>
+    <!-- we need to add some button/object that will redirect the main page-->
+    <a href="/"><p style="font-size: 30px;">Go to the Home</p></a>
+    <nav class="navbar navbar-light navbar-expand-md">
+      <div class="container-fluid">
+        <button class="navbar-toggler" data-toggle="collapse">
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="text-center contact-clean">
+      <form>
+        <h2 class="text-center">Create a post</h2>
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            name="title"
+            placeholder="Title"
+            required=""
+            minlength="3"
+            autofocus=""
+            maxlength="50"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            name="country_tag"
+            placeholder="Country tag: e.g: France, India, Chile"
+            required=""
+            minlength="3"
+            autofocus=""
+            maxlength="30"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            class="form-control"
+            type="text"
+            name="name_tag"
+            placeholder="Name tag: e.g: food, travel, music."
+            required=""
+            minlength="3"
+            maxlength="15"
+          />
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            name="content"
+            placeholder="Content"
+            rows="14"
+            required=""
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">Create</button>
+        </div>
+      </form>
+    </div>
+    <div></div>
+    <div></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
